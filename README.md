@@ -4,4 +4,4 @@ This project constitutes the original C++ implementation of the influence oracle
 
 The code was developed at [Microsoft Research](http://research.microsoft.com) and has been released under MIT license.
 
-**\[[Full Documentation](http://tpajor.com/projects/skim/)\]**
+**[Full Documentation](http://tpajor.com/projects/skim/)**
