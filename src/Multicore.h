@@ -36,7 +36,7 @@ inline void PinThread(const int threadId) {
 #elif __linux__
 	cpu_set_t mask;
 	CPU_ZERO(&mask);
-	CPU_SET(threadId, mask);
+	CPU_SET(threadId, &mask);
 	sched_setaffinity(0, sizeof(mask), &mask);
 #elif __APPLE__
 #endif
